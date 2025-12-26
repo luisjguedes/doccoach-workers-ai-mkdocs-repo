@@ -5,8 +5,7 @@ export default {
     const allowedOrigins = [
       "http://localhost:8000",
       "http://127.0.0.1:8000",
-      // Replace with your GitHub Pages origin:
-      "https://YOUR_GITHUB_USERNAME.github.io",
+      "https://luisjguedes.github.io",
     ];
 
     const corsHeaders = {
