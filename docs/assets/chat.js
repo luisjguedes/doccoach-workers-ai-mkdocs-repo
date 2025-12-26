@@ -1,4 +1,3 @@
-\
 (() => {
   const DEFAULT_ENDPOINT = "https://doccoach-chat.luis-doccoach.workers.dev/api/chat";
 
