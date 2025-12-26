@@ -28,8 +28,13 @@
   }
 
   function mount() {
-    const root = document.getElementById("doccoach-root");
-    if (!root) return;
+    let root = document.getElementById("doccoach-root");
+if (!root) {
+  root = document.createElement("div");
+  root.id = "doccoach-root";
+  document.body.appendChild(root);
+}
+
 
     let open = false;
     let includePage = true;
