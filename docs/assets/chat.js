@@ -1,6 +1,6 @@
 \
 (() => {
-  const DEFAULT_ENDPOINT = "https://YOUR-WORKER-SUBDOMAIN.workers.dev/api/chat";
+  const DEFAULT_ENDPOINT = "https://doccoach-chat.luis-doccoach.workers.dev/api/chat";
 
   function getEndpoint() {
     const configured = (window.DOCS_AI_CHAT && window.DOCS_AI_CHAT.endpoint) || "";
