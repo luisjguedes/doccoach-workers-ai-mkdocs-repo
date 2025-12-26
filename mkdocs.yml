@@ -1,7 +1,8 @@
 site_name: DocCoach — Technical Writing Chat
 site_description: An interactive MkDocs site with a Staff-level technical writing coach (Cloudflare Workers AI).
-repo_url: https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO
-repo_name: YOUR_GITHUB_USERNAME/YOUR_REPO
+repo_url: https://github.com/luisjguedes/doccoach-workers-ai-mkdocs-repo
+repo_name: luisjguedes/doccoach-workers-ai-mkdocs-repo
+
 
 theme:
   name: material
